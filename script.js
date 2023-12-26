@@ -1,30 +1,36 @@
-// owl carousel   
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
+//Sidemenu for responsive section -->
+    
+    var sidemenu = document.getElementById("sidemenu"); 
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:3,
     loop:true,
-    margin:10,
+    
     dots:false,
     autoplay:true,
     autoplayTimeout:3000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    nav: true,
+    responsive: {
+        400: {
+            items: 1
+        },
+        1000: {
+            items: 2
+        },
+        1250: {
+            items: 3
+        }
+    }
 });
 
 // for active 
