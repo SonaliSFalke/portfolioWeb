@@ -662,3 +662,9 @@ nav .fa-solid {
     
 }
 
+@media(max-width:450px){
+    .ex-box-1 {
+        margin: 30px;
+    }
+}
+
