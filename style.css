@@ -27,7 +27,7 @@ html {
 body {
     /* color: #FFF; */
     font-family: Raleway, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     /* font-weight: 400; */
 }
 
@@ -197,7 +197,7 @@ button .button,
 }
 
 .text-1 {
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .text-1,
@@ -241,6 +241,7 @@ button .button,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .img img {
@@ -660,11 +661,5 @@ nav .fa-solid {
         margin: 30px;
     }
     
-}
-
-@media(max-width:450px){
-    .ex-box-1 {
-        margin: 30px;
-    }
 }
 
